@@ -1,0 +1,7 @@
+Flask==3.1.2
+torch==2.7.1
+transformers==4.56.1
+openai-whisper>=20230314     # or use git+https://github.com/openai/whisper.git
+pytube>=7.0.16
+yt-dlp>=2025.10.22           # ensure you update to latest stable or newer
+ffmpeg-python
