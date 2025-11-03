@@ -12,7 +12,7 @@ from pytube import YouTube
 DOWNLOAD_DIR = "downloads"
 AUDIO_FILE = "audio.wav"
 VIDEO_FILE = "video.mp4"
-WHISPER_MODEL = "small"  # change to "base" or "tiny" for speed or "medium" for accuracy
+WHISPER_MODEL = "base"  # change to "base" or "tiny" for speed or "medium" for accuracy
 
 # ---------- Flask app ----------
 app = Flask(__name__)
@@ -229,3 +229,4 @@ def process():
 if __name__ == "__main__":
     # if you want to run via "python app.py" directly
     app.run(host="0.0.0.0", port=5000, debug=True)
+
